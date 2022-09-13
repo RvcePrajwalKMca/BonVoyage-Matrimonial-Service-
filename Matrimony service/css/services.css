@@ -1,0 +1,135 @@
+
+.card:hover {
+  transform: scale(1.1); 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #765a74;
+    border: 0px solid grey;
+}
+
+a{
+font-size:20px;
+color:white;
+
+}
+
+a:hover{
+font-size:21px;
+color:white;
+text-decoration: none;
+}
+
+#h_f{
+  
+font-size:24px;
+color:white;
+font-family: 'Rouge Script', cursive;
+}
+#p_f{
+font-size:16px;
+color:white;
+}
+h4{
+color:white;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: white;
+}
+.my-class {
+    background: #a36178;
+}
+.top_header{
+  background:#765a74;
+  color:white;
+  border-radius: 100%;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+
+
+
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+	
+
+}	
+
+.dropdown-item:hover {
+    background-color: #a36178 !important;
+    color:white !important;
+}
+
+
+
+
+
+
+
+.vert {
+    display: flex;
+    align-items: center;
+}
+
+#h1_pink { color: #a36178; font-family: 'Rouge Script', cursive; font-size: 60px;}
+#h1_white { color: white; font-family: 'Rouge Script', cursive; font-size: 60px;}
+
+.serv_card{
+height: 28rem;
+border: 1px solid white;
+}
+.succ_card{
+height: 14rem;
+background:white;
+
+}
+
+div.background {
+  background: url(https://i.ibb.co/0FJnpgp/bodyheaderbg.jpg) repeat;
+  border: 1px solid black;
+  
+}
+
+
+
+.foot_f{
+font-size:16px;
+}
+.foot_h{
+font-size:20px;
+}
+
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #a36178;
+    border-color: white; /*set the color you want here*/
+}
+
+.b_a{
+color: black;
+font-size:21px;
+}
+
+.img_c{
+display: block;
+  margin-left: 11%;
+  margin-right: auto;
+  width: 70%;
+}
